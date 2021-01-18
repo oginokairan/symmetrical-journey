@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "target": "ES2019",
+    "allowJs": true,
+    "declaration": true,
+    "outDir": ".build",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "rootDir": "./",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "node_modules/scaffold-entity",
+    "paths": {
+      "scaffold-entity": ["dist/index"]
+    },
+    "skipLibCheck": true,
+    "incremental": true,
+    "tsBuildInfoFile": "tsconfig.tsbuildinfo"
+  },
+  "exclude": [
+    "test",
+    "scripts",
+    "node_modules",
+    ".build"
+  ]
+}
