@@ -15,9 +15,6 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": "node_modules/scaffold-entity",
-    "paths": {
-      "scaffold-entity": ["dist/index"]
-    },
     "skipLibCheck": true,
     "incremental": true,
     "tsBuildInfoFile": "tsconfig.tsbuildinfo"
