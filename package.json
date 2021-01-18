@@ -7,7 +7,7 @@
   "scripts": {
     "tsc": "tsc",
     "test": "jest test/**",
-    "prepublishOnly": "npm run test && npm run tsc"
+    "prepublishOnly": "npm run tsc"
   },
   "repository": {
     "type": "git",
